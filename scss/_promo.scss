@@ -1,0 +1,39 @@
+.promo-space{
+    background: url(../img/promo/promo.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.promo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__content{
+        max-width: 400px;
+        height: 440px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-right: 20px;
+        &-title{
+            font-size: 48px;
+            line-height: 48px;
+            font-weight: 700;
+            color: white;
+        }
+        &-description{
+            font-size: 24px;
+            line-height: 40px;
+            font-weight: 400;
+            color: white;
+        }
+    }
+}
+
+.timer{
+    width: 260px;
+    height: 160px;
+    background-color: #ffffff;
+    border: 1px solid #d1d1d1;
+    border-radius: 10px;
+}

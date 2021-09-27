@@ -1,0 +1,133 @@
+@import "nullstyle";
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.lock{
+    overflow: hidden;
+}
+
+button{
+    display: flex;
+}
+
+h2{
+    font-size: 30px;
+    line-height: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    color: #333333;
+    margin-top: 80px;
+}
+
+.container{
+    width: 1170px;
+    height: 100%;
+    margin: auto;
+}
+
+.measure__form{
+    height: 640px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    form{
+        width: 370px;
+        height: 440px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #ffffff;
+        border-radius: 10px;
+    }
+    &-header{
+        width: 270px;
+        margin-top: 30px;
+        .form-subtitle{
+            font-size: 20px;
+            line-height: 30px;
+            font-weight: 700;
+            color: #333333;
+            text-align: center;
+        }
+        .form-title{
+            font-size: 24px;
+            line-height: 30px;
+            font-weight: 700;
+            color: #333333;
+            text-align: center;
+            text-transform: uppercase;
+        }
+    }
+    &-fields{
+        height: 140px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        input{
+            width: 270px;
+            height: 60px;
+            border: 1px solid #d1d1d1;
+            border-radius: 10px;
+        }
+    }
+    button{
+        width: 270px;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #e8e8e8;
+        background-image: linear-gradient(180.0deg, #ffed26 0%, #ffb400 100%);
+        border: 1px solid #ffc600;
+        box-shadow: 0px 2px 20px 0px rgba(255,153,0,0.4);
+        border-radius: 10px;
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #000000
+    }
+    &-footer p{
+        font-size: 11px;
+        line-height: 48px;
+        font-weight: 300;
+        color: #666666
+    }
+}
+
+.blue-line{
+    margin-top: 20px;
+    max-width: 170px;
+}
+
+.white-line{
+    margin-top: 20px;
+    max-width: 170px;
+}
+
+.stels{
+    width: 100%;
+    height: 1px;
+    position: fixed;
+    opacity: 0;
+    visibility: hidden;
+}
+
+@import "header";
+@import "hero";
+@import "glass";
+@import "decor";
+@import "portfolio";
+@import "garant";
+@import "payment";
+@import "promo";
+@import "location";
+@import "question";
+@import "footer";
+@import "popup";
+@import "gallery";
+
+@import "media";

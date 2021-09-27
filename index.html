@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ирвас</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="stels">
+
+    </div>
+
+    <div class="header-space">
+        <div class="container">
+            <div class="header">
+                <div class="header__logo">
+                    <img src="img/logo.png" alt="ирвас">
+                    <p class="header__logo-description">Остекление балконов и лоджий
+                        в Москве и Московской области</p>
+                </div>
+                <div class="header__block">
+                    <a href="#cause" class="header__call request-link">
+                        <img src="img/header/measuring.png" alt="call">
+                        <p>вызвать замерщика</p>
+                    </a>
+                    <div class="header__hours">
+                        <img src="img/header/clock.png" alt="hours">
+                        <div class="header__hours-text">
+                            <p class="weekend">без выходных</p>
+                            <p class="time">9:00 - 18:00</p>
+                        </div>
+                    </div>
+                    <div class="header__phone">
+                        <img src="img/header/phone.png" alt="phone">
+                        <div class="header__phone-text">
+                            <p class="number">+7 (495) 646-61-71</p>
+                            <a href="#request" class="call-back request-link">Заказать обратный звонок</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="hero-space">
+        <div class="container">
+            <div class="hero">
+                <div class="hero__content">
+                    <div class="hero__content-header">
+                        <p class="hero-offer">Остекление балконов "под ключ"</p>
+                        <p class="hero-price">за 12 800 рублей!</p>
+                    </div>
+                    <div class="hero__content-advantage">
+                        <div class="advantage-card">
+                            <img id="hero1" src="img/hero/advantage_1.png" alt="quality">
+                            <p class="advantage-title">Высокое качество</p>
+                        </div>
+                        <div class="advantage-card">
+                            <img id="hero2" src="img/hero/advantage_2.png" alt="time">
+                            <p class="advantage-title">Быстрый монтаж</p>
+                        </div>
+                        <div class="advantage-card">
+                            <img id="hero3" src="img/hero/advantage_3.png" alt="date">
+                            <p class="advantage-title">Гарантия 3 года</p>
+                        </div>
+                        <div class="advantage-card">
+                            <img id="hero4" src="img/hero/advantage_4.png" alt="car">
+                            <p class="advantage-title">Вывоз мусора</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="measure__form">
+                    <form action="#">
+                        <div class="measure__form-header">
+                            <p class="form-subtitle">Запишитесь сегодня на</p>
+                            <p class="form-title">Бесплатный замер</p>
+                        </div>
+                        <div class="measure__form-fields">
+                            <input type="text" placeholder="введите ваше имя">
+                            <input type="text" placeholder="+7 (9--) --- -- --">
+                        </div>
+                        <button>Вызвать замерщика</button>
+                        <div class="measure__form-footer">
+                            <p>Ваши данные конфедециальны</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="glass-space">
+        <div class="container">
+            <div class="glass">
+                <h2 class="glass__title">остекление балконов и лоджий</h2>
+                <img class="blue-line" src="img/blue_line.png" alt="blue-line">
+                <div class="glass__menu">
+                    <button onclick="return false" class="glass__menu-block">
+                        <img src="img/glass/glass_1.png" alt="wood">
+                        <a href="#">Деревянное остекление</a></button>
+                    <button onclick="return false" class="glass__menu-block">
+                        <img src="img/glass/glass_2.png" alt="aluminum">
+                        <a href="#">Алюминиевое остекление</a></button>
+                    <button onclick="return false" class="glass__menu-block">
+                        <img src="img/glass/glass_3.png" alt="plastic">
+                        <a href="#">Пластиковое остекление</a></button>
+                    <button onclick="return false" class="glass__menu-block">
+                        <img src="img/glass/glass_4.png" alt="panorama">
+                        <a href="#">Панорамное остекление</a></button>
+                    <button onclick="return false" class="glass__menu-block">
+                        <img src="img/glass/glass_5.png" alt="endure">
+                        <a href="#">Остекление с выносом</a></button>
+                </div>
+                <div class="glass__menu-card">
+                    <div class="glass__card card-cold">
+                        <div class="card-line"></div>
+                        <p class="glass__card-title">Холодное</p>
+                        <div class="glass__card-image">
+                            <img src="img/glass/card_1.png" alt="">
+                        </div>
+                        <ul class="glass__card-parameters">
+                            <li class="glass__card-parameter">
+                                <div class="parameter-circle"><img src="img/glass/checked.png" alt="cheked"></div>
+                                <p class="parameter-text">Конструктивная толщина 42-58 мм</p>
+                            </li>
+                            <li class="glass__card-parameter">
+                                <div class="parameter-circle"><img src="img/glass/checked.png" alt="cheked"></div>
+                                <p class="parameter-text">Полированное стекло (толщиной 4 - 5 мм)</p>
+                            </li>
+                            <li class="glass__card-parameter">
+                                <div class="parameter-circle"><img src="img/glass/checked.png" alt="cheked"></div>
+                                <p class="parameter-text">Теплоизоляция: 0,07 м2 * С/Вт</p>
+                            </li>
+                            <li class="glass__card-parameter">
+                                <div class="parameter-circle"><img src="img/glass/checked.png" alt="cheked"></div>
+                                <p class="parameter-text">Звукоизоляция: 20-27 дб</p>
+                            </li>
+                        </ul>
+                        <div class="glass__card-price">
+                            <div class="price__sq">
+                                <p class="price__sq-title">2600 руб.кв.м.</p>
+                                <p class="price__sq-description">Под ключ с установкой</p>
+                            </div>
+                            <a href="#calculation" class="price-calculate request-link">Рассчитать стоимость</a>
+                        </div>
+                    </div>
+                    <div class="glass__card card-hot">
+                        <p class="glass__card-title">Теплое</p>
+                        <div class="glass__card-image">
+                            <img src="img/glass/card_2.png" alt="">
+                        </div>
+                        <ul class="glass__card-parameters">
+                            <li class="glass__card-parameter">
+                                <div class="parameter-circle"><img src="img/glass/checked.png" alt="cheked"></div>
+                                <p class="parameter-text">Конструктивная толщина профиля: 58-78 м</p>
+                            </li>
+                            <li class="glass__card-parameter">
+                                <div class="parameter-circle"><img src="img/glass/checked.png" alt="cheked"></div>
+                                <p class="parameter-text">Однокамерные и двухкамерные стеклопакеты</p>
+                            </li>
+                            <li class="glass__card-parameter">
+                                <div class="parameter-circle"><img src="img/glass/checked.png" alt="cheked"></div>
+                                <p class="parameter-text">Теплоизоляция: 0,63 - 1,05 м2 * С/Вт</p>
+                            </li>
+                            <li class="glass__card-parameter">
+                                <div class="parameter-circle"><img src="img/glass/checked.png" alt="cheked"></div>
+                                <p class="parameter-text">Звукоизоляция: до 5 класса</p>
+                            </li>
+                        </ul>
+                        <div class="glass__card-price">
+                            <div class="price__sq">
+                                <p class="price__sq-title">4000 руб.кв.м.</p>
+                                <p class="price__sq-description">Под ключ с установкой</p>
+                            </div>
+                            <a href="#calculation" class="price-calculate request-link">Рассчитать стоимость</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="glass__menu-card">
+                    <div class="glass__card card-cold">
+                        <div class="card-line"></div>
+                        <p class="glass__card-title">Холодное</p>
+                        <div class="glass__card-image">
+                            <img src="img/glass/card_3.png" alt="">
+                        </div>
+                        <ul class="glass__card-parameters">
+                            <li class="glass__card-parameter">
+                                <div class="parameter-circle"><img src="img/glass/checked.png" alt="cheked"></div>
+                                <p class="parameter-text">Конструктивная толщина 42-58 мм</p>
+                            </li>
+                            <li class="glass__card-parameter">
+                                <div class="parameter-circle"><img src="img/glass/checked.png" alt="cheked"></div>
+                                <p class="parameter-text">Полированное стекло (толщиной 4 - 5 мм)</p>
+                            </li>
+                            <li class="glass__card-parameter">
+                                <div class="parameter-circle"><img src="img/glass/checked.png" alt="cheked"></div>
+                                <p class="parameter-text">Теплоизоляция: 0,07 м2 * С/Вт</p>
+                            </li>
+                            <li class="glass__card-parameter">
+                                <div class="parameter-circle"><img src="img/glass/checked.png" alt="cheked"></div>
+                                <p class="parameter-text">Звукоизоляция: 20-27 дб</p>
+                            </li>
+                        </ul>
+                        <div class="glass__card-price">
+                            <div class="price__sq">
+                                <p class="price__sq-title">2600 руб.кв.м.</p>
+                                <p class="price__sq-description">Под ключ с установкой</p>
+                            </div>
+                            <a href="#calculation" class="price-calculate request-link">Рассчитать стоимость</a>
+                        </div>
+                    </div>
+                    <div class="glass__card card-hot">
+                        <p class="glass__card-title">Теплое</p>
+                        <div class="glass__card-image">
+                            <img src="img/glass/card_4.png" alt="">
+                        </div>
+                        <ul class="glass__card-parameters">
+                            <li class="glass__card-parameter">
+                                <div class="parameter-circle"><img src="img/glass/checked.png" alt="cheked"></div>
+                                <p class="parameter-text">Конструктивная толщина профиля: 58-78 м</p>
+                            </li>
+                            <li class="glass__card-parameter">
+                                <div class="parameter-circle"><img src="img/glass/checked.png" alt="cheked"></div>
+                                <p class="parameter-text">Однокамерные и двухкамерные стеклопакеты</p>
+                            </li>
+                            <li class="glass__card-parameter">
+                                <div class="parameter-circle"><img src="img/glass/checked.png" alt="cheked"></div>
+                                <p class="parameter-text">Теплоизоляция: 0,63 - 1,05 м2 * С/Вт</p>
+                            </li>
+                            <li class="glass__card-parameter">
+                                <div class="parameter-circle"><img src="img/glass/checked.png" alt="cheked"></div>
+                                <p class="parameter-text">Звукоизоляция: до 5 класса</p>
+                            </li>
+                        </ul>
+                        <div class="glass__card-price">
+                            <div class="price__sq">
+                                <p class="price__sq-title">4000 руб.кв.м.</p>
+                                <p class="price__sq-description">Под ключ с установкой</p>
+                            </div>
+                            <a href="#calculation" class="price-calculate request-link">Рассчитать стоимость</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="glass__menu-card">
+                    <div class="glass__card card-cold">
+                        <div class="card-line"></div>
+                        <p class="glass__card-title">Холодное</p>
+                        <div class="glass__card-image">
+                            <img src="img/glass/card_5.png" alt="">
+                        </div>
+                        <ul class="glass__card-parameters">
+                            <li class="glass__card-parameter">
+                                <div class="parameter-circle"><img src="img/glass/checked.png" alt="cheked"></div>
+                                <p class="parameter-text">Конструктивная толщина 42-58 мм</p>
+                            </li>
+                            <li class="glass__card-parameter">
+                                <div class="parameter-circle"><img src="img/glass/checked.png" alt="cheked"></div>
+                                <p class="parameter-text">Полированное стекло (толщиной 4 - 5 мм)</p>
+                            </li>
+                            <li class="glass__card-parameter">
+                                <div class="parameter-circle"><img src="img/glass/checked.png" alt="cheked"></div>
+                                <p class="parameter-text">Теплоизоляция: 0,07 м2 * С/Вт</p>
+                            </li>
+                            <li class="glass__card-parameter">
+                                <div class="parameter-circle"><img src="img/glass/checked.png" alt="cheked"></div>
+                                <p class="parameter-text">Звукоизоляция: 20-27 дб</p>
+                            </li>
+                        </ul>
+                        <div class="glass__card-price">
+                            <div class="price__sq">
+                                <p class="price__sq-title">2600 руб.кв.м.</p>
+                                <p class="price__sq-description">Под ключ с установкой</p>
+                            </div>
+                            <a href="#calculation" class="price-calculate request-link">Рассчитать стоимость</a>
+                        </div>
+                    </div>
+                    <div class="glass__card card-hot">
+                        <p class="glass__card-title">Теплое</p>
+                        <div class="glass__card-image">
+                            <img src="img/glass/card_6.png" alt="">
+                        </div>
+                        <ul class="glass__card-parameters">
+                            <li class="glass__card-parameter">
+                                <div class="parameter-circle"><img src="img/glass/checked.png" alt="cheked"></div>
+                                <p class="parameter-text">Конструктивная толщина профиля: 58-78 м</p>
+                            </li>
+                            <li class="glass__card-parameter">
+                                <div class="parameter-circle"><img src="img/glass/checked.png" alt="cheked"></div>
+                                <p class="parameter-text">Однокамерные и двухкамерные стеклопакеты</p>
+                            </li>
+                            <li class="glass__card-parameter">
+                                <div class="parameter-circle"><img src="img/glass/checked.png" alt="cheked"></div>
+                                <p class="parameter-text">Теплоизоляция: 0,63 - 1,05 м2 * С/Вт</p>
+                            </li>
+                            <li class="glass__card-parameter">
+                                <div class="parameter-circle"><img src="img/glass/checked.png" alt="cheked"></div>
+                                <p class="parameter-text">Звукоизоляция: до 5 класса</p>
+                            </li>
+                        </ul>
+                        <div class="glass__card-price">
+                            <div class="price__sq">
+                                <p class="price__sq-title">4000 руб.кв.м.</p>
+                                <p class="price__sq-description">Под ключ с установкой</p>
+                            </div>
+                            <a href="#calculation" class="price-calculate request-link">Рассчитать стоимость</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="glass__menu-card">
+                    <div class="glass__card card-cold">
+                        <div class="card-line"></div>
+                        <p class="glass__card-title">Холодное</p>
+                        <div class="glass__card-image">
+                            <img src="img/glass/card_7.png" alt="">
+                        </div>
+                        <ul class="glass__card-parameters">
+                            <li class="glass__card-parameter">
+                                <div class="parameter-circle"><img src="img/glass/checked.png" alt="cheked"></div>
+                                <p class="parameter-text">Конструктивная толщина 42-58 мм</p>
+                            </li>
+                            <li class="glass__card-parameter">
+                                <div class="parameter-circle"><img src="img/glass/checked.png" alt="cheked"></div>
+                                <p class="parameter-text">Полированное стекло (толщиной 4 - 5 мм)</p>
+                            </li>
+                            <li class="glass__card-parameter">
+                                <div class="parameter-circle"><img src="img/glass/checked.png" alt="cheked"></div>
+                                <p class="parameter-text">Теплоизоляция: 0,07 м2 * С/Вт</p>
+                            </li>
+                            <li class="glass__card-parameter">
+                                <div class="parameter-circle"><img src="img/glass/checked.png" alt="cheked"></div>
+                                <p class="parameter-text">Звукоизоляция: 20-27 дб</p>
+                            </li>
+                        </ul>
+                        <div class="glass__card-price">
+                            <div class="price__sq">
+                                <p class="price__sq-title">2600 руб.кв.м.</p>
+                                <p class="price__sq-description">Под ключ с установкой</p>
+                            </div>
+                            <a href="#calculation" class="price-calculate request-link">Рассчитать стоимость</a>
+                        </div>
+                    </div>
+                    <div class="glass__card card-hot">
+                        <p class="glass__card-title">Теплое</p>
+                        <div class="glass__card-image">
+                            <img src="img/glass/card_8.png" alt="">
+                        </div>
+                        <ul class="glass__card-parameters">
+                            <li class="glass__card-parameter">
+                                <div class="parameter-circle"><img src="img/glass/checked.png" alt="cheked"></div>
+                                <p class="parameter-text">Конструктивная толщина профиля: 58-78 м</p>
+                            </li>
+                            <li class="glass__card-parameter">
+                                <div class="parameter-circle"><img src="img/glass/checked.png" alt="cheked"></div>
+                                <p class="parameter-text">Однокамерные и двухкамерные стеклопакеты</p>
+                            </li>
+                            <li class="glass__card-parameter">
+                                <div class="parameter-circle"><img src="img/glass/checked.png" alt="cheked"></div>
+                                <p class="parameter-text">Теплоизоляция: 0,63 - 1,05 м2 * С/Вт</p>
+                            </li>
+                            <li class="glass__card-parameter">
+                                <div class="parameter-circle"><img src="img/glass/checked.png" alt="cheked"></div>
+                                <p class="parameter-text">Звукоизоляция: до 5 класса</p>
+                            </li>
+                        </ul>
+                        <div class="glass__card-price">
+                            <div class="price__sq">
+                                <p class="price__sq-title">4000 руб.кв.м.</p>
+                                <p class="price__sq-description">Под ключ с установкой</p>
+                            </div>
+                            <a href="#calculation" class="price-calculate request-link">Рассчитать стоимость</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="glass__menu-card">
+                    <div class="glass__card card-cold">
+                        <div class="card-line"></div>
+                        <p class="glass__card-title">Холодное</p>
+                        <div class="glass__card-image">
+                            <img src="img/glass/card_5.png" alt="">
+                        </div>
+                        <ul class="glass__card-parameters">
+                            <li class="glass__card-parameter">
+                                <div class="parameter-circle"><img src="img/glass/checked.png" alt="cheked"></div>
+                                <p class="parameter-text">Конструктивная толщина 42-58 мм</p>
+                            </li>
+                            <li class="glass__card-parameter">
+                                <div class="parameter-circle"><img src="img/glass/checked.png" alt="cheked"></div>
+                                <p class="parameter-text">Полированное стекло (толщиной 4 - 5 мм)</p>
+                            </li>
+                            <li class="glass__card-parameter">
+                                <div class="parameter-circle"><img src="img/glass/checked.png" alt="cheked"></div>
+                                <p class="parameter-text">Теплоизоляция: 0,07 м2 * С/Вт</p>
+                            </li>
+                            <li class="glass__card-parameter">
+                                <div class="parameter-circle"><img src="img/glass/checked.png" alt="cheked"></div>
+                                <p class="parameter-text">Звукоизоляция: 20-27 дб</p>
+                            </li>
+                        </ul>
+                        <div class="glass__card-price">
+                            <div class="price__sq">
+                                <p class="price__sq-title">2600 руб.кв.м.</p>
+                                <p class="price__sq-description">Под ключ с установкой</p>
+                            </div>
+                            <a href="#calculation" class="price-calculate request-link">Рассчитать стоимость</a>
+                        </div>
+                    </div>
+                    <div class="glass__card card-hot">
+                        <p class="glass__card-title">Теплое</p>
+                        <div class="glass__card-image">
+                            <img src="img/glass/card_6.png" alt="">
+                        </div>
+                        <ul class="glass__card-parameters">
+                            <li class="glass__card-parameter">
+                                <div class="parameter-circle"><img src="img/glass/checked.png" alt="cheked"></div>
+                                <p class="parameter-text">Конструктивная толщина профиля: 58-78 м</p>
+                            </li>
+                            <li class="glass__card-parameter">
+                                <div class="parameter-circle"><img src="img/glass/checked.png" alt="cheked"></div>
+                                <p class="parameter-text">Однокамерные и двухкамерные стеклопакеты</p>
+                            </li>
+                            <li class="glass__card-parameter">
+                                <div class="parameter-circle"><img src="img/glass/checked.png" alt="cheked"></div>
+                                <p class="parameter-text">Теплоизоляция: 0,63 - 1,05 м2 * С/Вт</p>
+                            </li>
+                            <li class="glass__card-parameter">
+                                <div class="parameter-circle"><img src="img/glass/checked.png" alt="cheked"></div>
+                                <p class="parameter-text">Звукоизоляция: до 5 класса</p>
+                            </li>
+                        </ul>
+                        <div class="glass__card-price">
+                            <div class="price__sq">
+                                <p class="price__sq-title">4000 руб.кв.м.</p>
+                                <p class="price__sq-description">Под ключ с установкой</p>
+                            </div>
+                            <a href="#calculation" class="price-calculate request-link">Рассчитать стоимость</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="decor-space">
+        <div class="container">
+            <div class="decor">
+                <div class="decor__title">
+                    <h2>ЗАКАЖИТЕ ОТДЕЛКУ БАЛКОНА СО СКИДКОЙ 60%!</h2>
+                    <img class="blue-line" src="img/blue_line.png" alt="blue-line">
+                </div>
+                <div class="decor__menu">
+                    <button onclick="return false" class="decor__menu-item">ВНУТРЕННЯЯ ОТДЕЛКА</button>
+                    <button onclick="return false" class="decor__menu-item">ВНЕШНЯЯ ОТДЕЛКА</button>
+                    <button onclick="return false" class="decor__menu-item">ВЫНОСНОЕ ОСТЕКЛЕНИЕ</button>
+                    <button onclick="return false" class="decor__menu-item">КРЫША НА БАЛКОН</button>
+                </div>
+                <div class="decor__content">
+                    <div class="decor__content-image">
+                        <img src="img/decor/decor_card1.png" alt="">
+                    </div>
+                    <div class="decor__content-materials">
+                        <div class="materials__card">
+                            <img src="img/decor/materials1.png" alt="">
+                            <p class="materials__card-title">Вагонка</p>
+                            <p class="materials__card-description">600 руб. кв.м.</p>
+                        </div>
+                        <div class="materials__card">
+                            <img src="img/decor/materials2.png" alt="">
+                            <p class="materials__card-title">Пластиковая
+                                вагонка</p>
+                            <p class="materials__card-description">750 руб. кв. м</p>
+                        </div>
+                        <div class="materials__card">
+                            <img src="img/decor/materials3.png" alt="">
+                            <p class="materials__card-title">ПВХ-панели</p>
+                            <p class="materials__card-description">800 руб.кв. м.</p>
+                        </div>
+                        <div class="materials__card">
+                            <img src="img/decor/materials4.png" alt="">
+                            <p class="materials__card-title">Настил пола
+                                из ламината</p>
+                            <p class="materials__card-description">1250 руб. Кв. М</p>
+                        </div>
+                        <div class="materials__card">
+                            <img src="img/decor/materials5.png" alt="">
+                            <p class="materials__card-title">Настил пола
+                                из дерева</p>
+                            <p class="materials__card-description">1650 руб. Кв. М</p>
+                        </div>
+                    </div>
+                    <div class="measure__form">
+                        <form action="#">
+                            <div class="measure__form-header">
+                                <p class="form-subtitle">Запишитесь сегодня на</p>
+                                <p class="form-title">Бесплатный замер</p>
+                            </div>
+                            <div class="measure__form-fields">
+                                <input type="text" placeholder="введите ваше имя">
+                                <input type="text" placeholder="+7 (9--) --- -- --">
+                            </div>
+                            <button>Вызвать замерщика</button>
+                            <div class="measure__form-footer">
+                                <p>Ваши данные конфедециальны</p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="decor__content">
+                    <div class="decor__content-image">
+                        <img src="img/decor/decor_card2.png" alt="">
+                    </div>
+                    <div class="decor__content-materials">
+                        <div class="materials__card">
+                            <img src="img/decor/materials1.png" alt="">
+                            <p class="materials__card-title">Вагонка</p>
+                            <p class="materials__card-description">600 руб. кв.м.</p>
+                        </div>
+                        <div class="materials__card">
+                            <img src="img/decor/materials2.png" alt="">
+                            <p class="materials__card-title">Пластиковая
+                                вагонка</p>
+                            <p class="materials__card-description">750 руб. кв. м</p>
+                        </div>
+                        <div class="materials__card">
+                            <img src="img/decor/materials3.png" alt="">
+                            <p class="materials__card-title">ПВХ-панели</p>
+                            <p class="materials__card-description">800 руб.кв. м.</p>
+                        </div>
+                        <div class="materials__card">
+                            <img src="img/decor/materials4.png" alt="">
+                            <p class="materials__card-title">Настил пола
+                                из ламината</p>
+                            <p class="materials__card-description">1250 руб. Кв. М</p>
+                        </div>
+                        <div class="materials__card">
+                            <img src="img/decor/materials5.png" alt="">
+                            <p class="materials__card-title">Настил пола
+                                из дерева</p>
+                            <p class="materials__card-description">1650 руб. Кв. М</p>
+                        </div>
+                    </div>
+                    <div class="measure__form">
+                        <form action="#">
+                            <div class="measure__form-header">
+                                <p class="form-subtitle">Запишитесь сегодня на</p>
+                                <p class="form-title">Бесплатный замер</p>
+                            </div>
+                            <div class="measure__form-fields">
+                                <input type="text" placeholder="введите ваше имя">
+                                <input type="text" placeholder="+7 (9--) --- -- --">
+                            </div>
+                            <button>Вызвать замерщика</button>
+                            <div class="measure__form-footer">
+                                <p>Ваши данные конфедециальны</p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="decor__content">
+                    <div class="decor__content-image">
+                        <img src="img/decor/decor_card3.png" alt="">
+                    </div>
+                    <div class="decor__content-materials">
+                        <div class="materials__card">
+                            <img src="img/decor/materials1.png" alt="">
+                            <p class="materials__card-title">Вагонка</p>
+                            <p class="materials__card-description">600 руб. кв.м.</p>
+                        </div>
+                        <div class="materials__card">
+                            <img src="img/decor/materials2.png" alt="">
+                            <p class="materials__card-title">Пластиковая
+                                вагонка</p>
+                            <p class="materials__card-description">750 руб. кв. м</p>
+                        </div>
+                        <div class="materials__card">
+                            <img src="img/decor/materials3.png" alt="">
+                            <p class="materials__card-title">ПВХ-панели</p>
+                            <p class="materials__card-description">800 руб.кв. м.</p>
+                        </div>
+                        <div class="materials__card">
+                            <img src="img/decor/materials4.png" alt="">
+                            <p class="materials__card-title">Настил пола
+                                из ламината</p>
+                            <p class="materials__card-description">1250 руб. Кв. М</p>
+                        </div>
+                        <div class="materials__card">
+                            <img src="img/decor/materials5.png" alt="">
+                            <p class="materials__card-title">Настил пола
+                                из дерева</p>
+                            <p class="materials__card-description">1650 руб. Кв. М</p>
+                        </div>
+                    </div>
+                    <div class="measure__form">
+                        <form action="#">
+                            <div class="measure__form-header">
+                                <p class="form-subtitle">Запишитесь сегодня на</p>
+                                <p class="form-title">Бесплатный замер</p>
+                            </div>
+                            <div class="measure__form-fields">
+                                <input type="text" placeholder="введите ваше имя">
+                                <input type="text" placeholder="+7 (9--) --- -- --">
+                            </div>
+                            <button>Вызвать замерщика</button>
+                            <div class="measure__form-footer">
+                                <p>Ваши данные конфедециальны</p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="decor__content">
+                    <div class="decor__content-image">
+                        <img src="img/decor/decor_card4.png" alt="">
+                    </div>
+                    <div class="decor__content-materials">
+                        <div class="materials__card">
+                            <img src="img/decor/materials1.png" alt="">
+                            <p class="materials__card-title">Вагонка</p>
+                            <p class="materials__card-description">600 руб. кв.м.</p>
+                        </div>
+                        <div class="materials__card">
+                            <img src="img/decor/materials2.png" alt="">
+                            <p class="materials__card-title">Пластиковая
+                                вагонка</p>
+                            <p class="materials__card-description">750 руб. кв. м</p>
+                        </div>
+                        <div class="materials__card">
+                            <img src="img/decor/materials3.png" alt="">
+                            <p class="materials__card-title">ПВХ-панели</p>
+                            <p class="materials__card-description">800 руб.кв. м.</p>
+                        </div>
+                        <div class="materials__card">
+                            <img src="img/decor/materials4.png" alt="">
+                            <p class="materials__card-title">Настил пола
+                                из ламината</p>
+                            <p class="materials__card-description">1250 руб. Кв. М</p>
+                        </div>
+                        <div class="materials__card">
+                            <img src="img/decor/materials5.png" alt="">
+                            <p class="materials__card-title">Настил пола
+                                из дерева</p>
+                            <p class="materials__card-description">1650 руб. Кв. М</p>
+                        </div>
+                    </div>
+                    <div class="measure__form">
+                        <form action="#">
+                            <div class="measure__form-header">
+                                <p class="form-subtitle">Запишитесь сегодня на</p>
+                                <p class="form-title">Бесплатный замер</p>
+                            </div>
+                            <div class="measure__form-fields">
+                                <input type="text" placeholder="введите ваше имя">
+                                <input type="text" placeholder="+7 (9--) --- -- --">
+                            </div>
+                            <button>Вызвать замерщика</button>
+                            <div class="measure__form-footer">
+                                <p>Ваши данные конфедециальны</p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio-space">
+        <div class="container">
+            <div class="portfolio">
+                <div class="portfolio__title">
+                    <h2>Наши работы</h2>
+                    <img class="blue-line" src="img/blue_line.png" alt="blue-line">
+                </div>
+                <div class="portfolio__content">
+                    <a href="#gallery1" class="request-link">
+                        <div class="portfolio__content-card">
+                            <img src="img/portfolio/portfolio1.png" alt="">
+                        </div>
+                    </a>
+                    <a href="#gallery2" class="request-link">
+                        <div class="portfolio__content-card">
+                            <img src="img/portfolio/portfolio2.png" alt="">
+                        </div>
+                    </a>
+                    <a href="#gallery3" class="request-link">
+                        <div class="portfolio__content-card">
+                            <img src="img/portfolio/portfolio3.png" alt="">
+                        </div>
+                    </a>
+                    <a href="#gallery4" class="request-link">
+                        <div class="portfolio__content-card">
+                            <img src="img/portfolio/portfolio4.png" alt="">
+                        </div>
+                    </a>
+                    <a href="#gallery5" class="request-link">
+                        <div class="portfolio__content-card">
+                            <img src="img/portfolio/portfolio5.png" alt="">
+                        </div>
+                    </a>
+                    <a href="#gallery6" class="request-link">
+                        <div class="portfolio__content-card">
+                            <img src="img/portfolio/portfolio6.png" alt="">
+                        </div>
+                    </a>
+                    <a href="#gallery7" class="request-link">
+                        <div class="portfolio__content-card">
+                            <img src="img/portfolio/portfolio7.png" alt="">
+                        </div>
+                    </a>
+                    <a href="#gallery8" class="request-link">
+                        <div class="portfolio__content-card">
+                            <img src="img/portfolio/portfolio8.png" alt="">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="garant-space">
+        <div class="container">
+            <div class="garant">
+                <div class="garant__title">
+                    <h2>мы гарантируем вам</h2>
+                    <img class="white-line" src="img/white_line.png" alt="">
+                </div>
+                <div class="garant__content">
+                    <div class="garant__content-card">
+                        <img src="img/garant/garant_icon1.png" alt="">
+                        <p>Высокое качество</p>
+                    </div>
+                    <div class="garant__content-card">
+                        <img src="img/garant/garant_icon2.png" alt="">
+                        <p>Выполнение работ под ключ</p>
+                    </div>
+                    <div class="garant__content-card">
+                        <img src="img/garant/garant_icon3.png" alt="">
+                        <p>Монтаж в короткие сроки</p>
+                    </div>
+                    <div class="garant__content-card">
+                        <img src="img/garant/garant_icon4.png" alt="">
+                        <p>Цены от производителя</p>
+                    </div>
+                    <div class="garant__content-card">
+                        <img src="img/garant/garant_icon5.png" alt="">
+                        <p>Бесплатный замер и консультацию</p>
+                    </div>
+                    <div class="garant__content-card">
+                        <img src="img/garant/garant_icon6.png" alt="">
+                        <p>Тепло и уют на балконе</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="payment-space">
+        <div class="container">
+            <div class="payment">
+                <div class="payment__title">
+                    <h2>Вы можете оплатить наши услуги:</h2>
+                    <img class="blue-line" src="img/blue_line.png" alt="">
+                </div>
+                <div class="payment__content">
+                    <div class="payment__content-card">
+                        <img src="img/payment/payment1.png" alt="">
+                        <p>Наличными</p>
+                    </div>
+                    <div class="payment__content-card">
+                        <img src="img/payment/payment2.png" alt="">
+                        <p>Банковской картой</p>
+                    </div>
+                    <div class="payment__content-card">
+                        <img src="img/payment/payment3.png" alt="">
+                        <p>Безналичный расчет</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="promo-space">
+        <div class="container">
+            <div class="promo">
+                <div class="promo__content">
+                    <p class="promo__content-title">АКЦИЯ - 60%</p>
+                    <p class="promo__content-description">Успей сэкономить на остеклении! Только до 23 апреля!</p>
+                </div>
+                <div class="measure__form">
+                    <form action="#">
+                        <div class="measure__form-header">
+                            <p class="form-subtitle">Запишитесь сегодня на</p>
+                            <p class="form-title">Бесплатный замер</p>
+                        </div>
+                        <div class="measure__form-fields">
+                            <input type="text" placeholder="введите ваше имя">
+                            <input type="text" placeholder="+7 (9--) --- -- --">
+                        </div>
+                        <button>Вызвать замерщика</button>
+                        <div class="measure__form-footer">
+                            <p>Ваши данные конфедециальны</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="location-space">
+        <div class="container">
+            <div class="location">
+                <div class="location__title">
+                    <h2>Как нас найти</h2>
+                    <img class="blue-line" src="img/blue_line.png" alt="blue-line">
+                </div>
+                <div class="location__content">
+                    <div class="location__content-map">
+                        <img src="img/location/location.png" alt="location">
+                    </div>
+                    <div class="location__content-contact">
+                        <div class="contact">
+                            <p class="contact-title">Юридический адрес:</p>
+                            <p class="contact-text">ООО «ИРВАС», 127411, г.Москва, Дмитровское шоссе, д.125, корпус 1
+                            </p>
+                        </div>
+                        <div class="contact">
+                            <p class="contact-title">Фактический адрес:</p>
+                            <p class="contact-text">ООО «ИРВАС», 141031, МО, Мытищинский р-он, п.Вешки,Выставочная,д.53
+                            </p>
+                        </div>
+                        <div class="contact">
+                            <p class="contact-title">Телефон:</p>
+                            <p class="contact-text">+7 (495) 646-61- 71 (многоканальный)</p>
+                        </div>
+                        <div class="contact">
+                            <p class="contact-title">E-mail</p>
+                            <p class="contact-text">info@irvasokna.ru</p>
+                        </div>
+                        <div class="contact">
+                            <p class="contact-title">Режим работы:</p>
+                            <p class="contact-text">9:00 - 18:00 без выходных</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="question-space">
+        <div class="container">
+            <div class="question">
+                <p class="question-text">Остались вопросы?</p>
+                <a href="#stels" class="question-link">Спросите у нашего специалиста!</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-space">
+        <div class="container">
+            <div class="footer">
+                <div class="footer__since">
+                    <p>2017 © Ирвас окна Работаем без выходных</p>
+                </div>
+                <div class="footer__logo">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <div class="footer__phone">
+                    <p>+7 (495) 646-61-71</p>
+                    <a class="request-link" href="#request">Заказать обратный звонок</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="request" class="request">
+        <div class="request__body">
+            <div class="request__form">
+                <div class="request__form-cancel">
+                    <a href="#stels">
+                        <img src="img/cancel.png" alt="">
+                    </a>
+                </div>
+                <div class="request__form-header">
+                    <p class="request-subtitle">Закажите сейчас</p>
+                    <p class="request-title">Обратный звонок</p>
+                </div>
+                <div class="request__form-fields">
+                    <input type="text" placeholder="введите ваше имя">
+                    <input type="text" placeholder="+7 (9--) --- -- --">
+                </div>
+                <button>Отаправить заявку</button>
+                <div class="request__form-footer">
+                    <p>Ваши данные конфедециальны</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="calculation" class="request">
+        <div class="request__body">
+            <div class="request__form">
+                <div class="request__form-cancel">
+                    <a href="#stels">
+                        <img src="img/cancel.png" alt="">
+                    </a>
+                </div>
+                <div class="request__form-header">
+                    <p class="request-subtitle">Рассчитать стоимость</p>
+                    <p class="request-title">Со скидкой</p>
+                </div>
+                <div class="request__form-fields">
+                    <input type="text" placeholder="введите ваше имя">
+                    <input type="text" placeholder="+7 (9--) --- -- --">
+                </div>
+                <button>Отаправить заявку</button>
+                <div class="request__form-footer">
+                    <p>Рассчитать стоимость</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="cause" class="request">
+        <div class="request__body">
+            <div class="request__form">
+                <div class="request__form-cancel">
+                    <a href="#stels">
+                        <img src="img/cancel.png" alt="">
+                    </a>
+                </div>
+                <div class="request__form-header">
+                    <p class="request-subtitle">Запишитесь сегодня на</p>
+                    <p class="request-title">Бесплатный замер</p>
+                </div>
+                <div class="request__form-fields">
+                    <input type="text" placeholder="введите ваше имя">
+                    <input type="text" placeholder="+7 (9--) --- -- --">
+                </div>
+                <button>Вызвать замерщика</button>
+                <div class="request__form-footer">
+                    <p>Рассчитать стоимость</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="gallery1" class="request">
+        <div class="gallery">
+            <img src="img/portfolio/gallery1.jpg" alt="">
+        </div>
+    </div>
+    <div id="gallery2" class="request">
+        <div class="gallery">
+            <img src="img/portfolio/gallery2.jpg" alt="">
+        </div>
+    </div>
+    <div id="gallery3" class="request">
+        <div class="gallery">
+            <img src="img/portfolio/gallery3.jpg" alt="">
+        </div>
+    </div>
+    <div id="gallery4" class="request">
+        <div class="gallery">
+            <img src="img/portfolio/gallery4.jpg" alt="">
+        </div>
+    </div>
+    <div id="gallery5" class="request">
+        <div class="gallery">
+            <img src="img/portfolio/gallery5.jpg" alt="">
+        </div>
+    </div>
+    <div id="gallery6" class="request">
+        <div class="gallery">
+            <img src="img/portfolio/gallery6.jpg" alt="">
+        </div>
+    </div>
+    <div id="gallery7" class="request">
+        <div class="gallery">
+            <img src="img/portfolio/gallery7.jpg" alt="">
+        </div>
+    </div>
+    <div id="gallery8" class="request">
+        <div class="gallery">
+            <img src="img/portfolio/gallery8.jpg" alt="">
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+
+</html>

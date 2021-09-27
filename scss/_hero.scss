@@ -1,0 +1,84 @@
+.hero-space{
+    width: 100%;
+    height: 640px;
+    background: url(../img/hero/hero.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 640px;
+    &-header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .hero-offer{
+            font-size: 26px;
+            line-height: 48px;
+            font-weight: 700;
+            color: white;
+        }
+        .hero-price{
+            margin-top: 15px;
+            font-size: 55px;
+            line-height: 48px;
+            font-weight: 700;
+            color: white;
+        }
+    }
+    &-advantage{
+        display: flex;
+        flex-wrap: wrap;
+        .advantage-card{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            width: 110px;
+            height: 110px;
+            position: relative;
+            margin:0 10px 0 10px;
+            background-color: #0d8fe3;
+            border: 1px solid #ffffff;
+            border-radius: 55px;
+            .advantage-title{
+                font-size: 16px;
+                line-height: 1.2;
+                font-weight: 700;
+                text-transform: uppercase;
+                text-align: center;
+                color: #ffffff;
+            }
+            img{
+                position: absolute;
+            }
+            #hero1{
+                top: -22px;
+            }
+            #hero2{
+                top: -36px;
+                right: 34px;
+            }
+            #hero3{
+                top: -21px;
+            }
+            #hero4{
+                top: -19px;
+            }
+        }
+    }
+    
+}
+
+
+
+
+

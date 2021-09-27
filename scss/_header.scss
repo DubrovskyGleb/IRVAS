@@ -1,0 +1,109 @@
+.header-space{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    box-shadow: 0px 3px 20px 0px rgba(50, 50, 255, 0.2);
+    top:0;
+}
+
+.close{
+    opacity: 0;
+    visibility: hidden;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    &__logo{
+        display: flex;
+        width: 400px;
+        height: 100%;
+        align-items: center;
+    }
+    &__logo-description{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 26px;
+        margin-right: 5px;
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 400;
+        color: #0096dc
+    }
+    &__block{
+        display: flex;
+        align-items: center;
+    }
+    &__call{
+        display: flex;
+        align-items: center;
+        width: 170px;
+        height: 60px;
+        border: 2px solid #55a831;
+        border-radius: 10px;
+        background-color: transparent;
+        p{
+            font-size: 14px;
+            line-height: 1.2;
+            font-weight: 700;
+            color: #55a831;
+            text-align: start;
+        }
+        img{
+            margin: 0 10px 0 15px;
+        }
+    }
+    &__hours{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 145px;
+        height: 100%;
+        margin-left: 55px;
+        &-text{
+            .weekend{
+                font-size: 14px;
+                line-height: 1.2;
+                font-weight: 400;
+                color: #333333
+            }
+            .time{
+                font-size: 18px;
+                line-height: 1.2;
+                font-weight: 600;
+                color: #333333;
+            }
+        }
+    }
+    &__phone{
+        display: flex;
+        align-items: center;
+        width: 235px;
+        height: 100%;
+        margin-left: 70px;
+        img{
+            margin-bottom: 15px;
+        }
+        &-text{
+            display: flex;
+            flex-direction: column;
+            margin-left: 15px;
+            .number{
+                font-size: 22px;
+                line-height: 1.2;
+                font-weight: 700;
+                color: #333333;
+            }
+            .call-back{
+                font-size: 15px;
+                line-height: 1.2;
+                font-weight: 400;
+                text-decoration: underline;
+                color: #0089cc;
+            }
+        }
+    }
+
+}

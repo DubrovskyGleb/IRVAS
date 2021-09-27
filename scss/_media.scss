@@ -1,0 +1,477 @@
+@media screen and(max-width: 1210px){
+    .container{
+        padding: 0 20px 0 20px;
+    }
+}
+
+@media screen and(max-width: 1170px){
+    .container{
+        width: 100%;
+        padding: 0 20px 0 20px;
+    }
+
+    .glass__menu-card .glass__card-price {
+        align-items: center;
+        .price-calculate{
+            width: 176px;
+            height: 43px;
+            font-size: 12px;
+            line-height: 20px;
+        }
+        .price__sq-description{
+            line-height: 16px;
+        }
+    }
+
+    .portfolio__content{
+        justify-content: space-around;
+    }
+}
+
+@media screen and(max-width: 1120px){
+    .header__logo-description{
+        display: none;
+    }
+}
+
+@media screen and(max-width: 1070px){
+    .decor{
+        &__menu{
+            &-item{
+                font-size: 16px;
+            }
+        }
+        &__content-image{
+            display: none;
+        }
+    }
+}
+
+@media screen and(max-width: 940px){
+    .header{
+        &__phone{
+            margin-left: 30px;
+        }
+        &__hours{
+            margin-left: 30px;
+        }
+    }
+
+    .hero{
+        justify-content: space-around;
+    }
+
+    .hero__content{
+        align-items: center;
+        justify-content: center;
+        &-header{
+            .hero-price{
+                font-size: 38px;
+            }
+            .hero-offer{
+                font-size: 22px;
+                line-height: 10px;
+            }
+        }
+        &-advantage{
+            width: 260px;
+            margin-top: 58px;
+            .advantage-card{
+                margin: 40px 10px 0 10px;
+            }
+        }
+    }
+}
+
+@media screen and(max-width: 980px){
+    .glass__menu-card{ 
+        .glass__card{
+            padding: 0px 10px 30px 10px;
+            &-price{
+                justify-content: space-around;
+            }
+        }
+    }
+}
+
+@media screen and(max-width: 860px){
+    .decor{
+        &__menu{
+            &-item{
+                font-size: 14px;
+                height: 70px;
+            }
+        }
+    }
+
+    .contact{
+        &-text{
+            font-size: 14px;
+        }
+    }
+
+    .question{
+        height: 100px;
+        &-text{
+            font-size: 18px;
+        }
+        &-link{
+            font-size: 18px;
+        }
+    }
+}
+
+@media screen and(max-width: 830px){
+    .header__hours{
+        display: none;
+    }
+
+    .hero__content-header{
+        .hero-offer {
+            font-size: 16px;
+        }
+        .hero-price{
+            font-size: 30px;
+        }
+    }
+    
+    .glass__menu-card {
+        .glass__card{
+            &-price{
+                flex-direction: column;
+                margin-top: 30px;
+                .price-calculate{
+                    margin-top: 25px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and(max-width: 760px){
+    .decor{
+        &__menu{
+            flex-wrap: wrap;
+            &-item{
+                font-size: 16px;
+                width: 50%;
+            }
+        }
+        &__content{
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    .promo{
+        &__content{
+            &-title{
+                font-size: 37px;
+            }
+        }
+    }
+
+    .location__content{
+        flex-direction: column;
+        &-map{
+            margin-bottom: 30px;
+        }
+    }
+}
+
+@media screen and(max-width: 740px){
+    .hero-space{
+        height: auto;
+    }
+
+    .hero{
+        flex-direction: column;
+        &__content{
+            width: 100%;
+            height: auto;
+            &-header{
+                margin-top: 50px;
+                .hero-offer{
+                    font-size: 26px;
+                    line-height: 48px;
+                }
+                .hero-price{
+                    font-size: 55px;
+                }
+            }
+            &-advantage{
+                width: 100%;
+                justify-content: space-around;
+                margin: 40px 0px 40px 0px;
+            }
+        }
+        .measure__form{
+            width: 100%;
+            height: auto;
+            justify-content: center;
+            form{
+                margin-bottom: 50px;
+            }
+        }
+    }
+
+    .glass__menu-card .glass__card-parameter .parameter-text {
+        font-size: 12px;
+    }
+}
+
+@media screen and(max-width:700px){
+    .promo{
+        flex-direction: column;
+        &__content{
+            height: auto;
+            align-items: center;
+            margin-right: 0;
+            &-title{
+                margin-top: 60px;
+            }
+            &-description{
+                margin-top: 40px;
+                text-align: center;
+            }
+            .timer{
+                margin-top: 40px;
+            }
+        }
+        .measure__form{
+            height: auto;
+            margin: 40px 0 40px 0;
+        }
+    }
+}
+
+@media screen and(max-width: 650px){
+    h2{
+        font-size: 20px;
+        margin-top: 50px;
+        line-height: 35px;
+    }
+    
+    .header__call{
+        display: none;
+    }
+
+    .glass{
+        &__menu{
+            &-block{
+                img{
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+        }
+    }
+
+    .glass__menu-card{
+        flex-direction: column;
+        .glass__card{
+            width: 100%;
+            padding: 0 60px 0 60px;
+            &-parameter{
+                .parameter-text{
+                    font-size: 14px;
+                }
+            }
+            &-price{
+                flex-direction: row;
+                margin-bottom: 60px;
+                align-items: center;
+                .price-calculate{
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+
+    .garant__content{
+        &-card{
+            margin: 50px;
+        }
+    }
+
+    .payment__content{
+        &-card{
+            margin: 50px;
+        }
+    }
+
+    .location__content{
+        margin: 50px 0 30px 0;
+    }
+
+    .footer{
+        &__logo{
+            display: none;
+        }
+    }
+}
+
+@media screen and(max-width: 610px){
+    .portfolio__content{
+        justify-content: center;
+        margin-bottom: 0;
+        &-card{
+            margin: 30px 10px 30px 10px;
+        }
+    }
+    .payment__content{
+        flex-direction: column;
+        align-items: center;
+      
+    }
+}
+
+@media screen and(max-width: 530px){
+    .hero__content-header{
+        .hero-price{
+            font-size: 38px;
+        }
+        .hero-offer{
+            font-size: 22px;
+            line-height: 10px;
+        }
+    }
+
+    .glass{
+        &__menu{
+            flex-direction: column;
+            margin-top: 50px;
+            &-block{
+                max-width: 100%;
+                flex-direction: row;
+                height: 60px;
+                justify-content: space-around;
+                align-items: center;
+                img{
+                    width: 50px;
+                    height: 50px;
+                    // margin-left: 60px;
+                }
+                a{
+                    margin-top: 0;
+                    font-size: 16px;
+                    // margin-left: 10%;
+                }
+            }
+        }
+    }
+    .glass__menu-card{
+        .glass__card{
+            padding:0 20px;
+            .glass__card-price{
+                flex-direction: column;
+                button{
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+
+    .decor{
+        &__menu{
+            &-item{
+                font-size: 14px;
+                width: 100%;
+            }
+        }
+    }
+
+    .question{
+        flex-direction: column;
+        justify-content: center;
+        &-text{
+            font-size: 16px;
+        }
+        &-link{
+            font-size: 16px;
+        }
+    }
+    
+}
+
+@media screen and(max-width: 460px){
+    .header-space{
+        height: 50px;
+    }
+
+    .header{
+        &__logo img{
+            width: 71px;
+            height: auto;
+        }
+        &__phone{
+            width: 195px;
+            margin-left: 20px;
+        }
+        &__phone img{
+            margin-bottom: 0;
+        }
+        &__phone-text{
+            .number{
+                font-size: 18px;
+            }
+            .call-back{
+                font-size: 12px;
+            }
+        } 
+    }
+
+    .footer{
+        flex-direction: column;
+        &__since{
+            p{
+                text-align: center;
+                font-size: 12px;
+            }
+        }
+        &__phone{
+            align-items: center;
+        }
+    }
+}
+
+@media screen and(max-width: 440px){
+    .hero__content-header{
+        .hero-offer {
+            font-size: 15px;
+        }
+        .hero-price{
+            font-size: 30px;
+        }
+    }
+    .glass__menu-card{
+        .glass__card-parameter .parameter-text {
+            font-size: 12px;
+        }
+    }
+    .measure__form{
+        width: 100%;
+    }
+    
+}
+
+@media screen and(max-width:400px){
+    .portfolio__content{
+        &-card{
+            margin: 20px 0 20px 0;
+        }
+    }
+
+    .garant__content{
+        &-card{
+            margin: 20px;
+        }
+    }
+    
+    .payment__content{
+        &-card{
+            margin: 20px;
+            height: 100px;
+        }
+    }
+}
